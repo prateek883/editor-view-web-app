@@ -1,0 +1,98 @@
+.menu{
+    width: 40%;
+    float: left;
+    margin-top:30px;
+    transition: all 1s;
+    height: 95vh;
+}
+.menu .active {
+    margin-top: 0px;
+}
+.eachrow{
+    margin-left: 20px;
+}
+nav{
+    background-color: #ffffff;
+}
+.menucontainer{
+    
+    margin-left: 15px;
+}
+.addmenu{
+    float: right;
+    padding: 6px;
+    background-color: #D3D3D3;
+}
+.menuinput{
+    border:none;
+    outline: none;
+    background-color: #D3D3D3;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+.faplus{
+    color: red;
+    margin-left: 200px;
+}
+.faplus2{
+    color: red;
+}
+.faexpand{
+    margin-left: 20px;
+}
+.faarrowleft{
+    margin-left: 20px;
+}
+.select{
+    width: 100%;
+}
+.hmenu{
+    width: 550px;
+    float: left;
+    margin-top: 8px;
+    background-color: #ffffff;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+    color: darkgreen;
+}
+a{
+    text-align: center;
+    color: #777;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+}
+a:hover{
+    border-bottom: 2px solid red;
+    transition: 0.2s;
+    text-decoration: none;
+    
+}
+.title{
+    color: #777;
+    text-decoration: none;
+}
+.title:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+#all{
+    border-bottom: 2px solid red;
+    text-decoration: none;
+    color: black;
+}
+#board{
+    text-decoration: none;
+    color: black;
+}
+#graph{
+    text-decoration: none;
+    color: black;
+}
+#recent{
+    text-decoration: none;
+    color: black;
+}
